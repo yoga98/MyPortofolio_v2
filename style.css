@@ -1,0 +1,69 @@
+/* Trik Footer Selalu Dibawah */
+
+html {
+    position: relative;
+}
+
+body {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    padding-top: 30px;
+}
+
+section {
+    min-height: 600px;
+}
+
+hr {
+    width: 25%;
+    border: 2px solid #999999;
+}
+
+.ActionKiri.ActionMuncul,
+.ActionKanan.ActionMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.jumbotron {
+    background-image: url(img/tamara-bitter-Xn4g9aHY4ao-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 10px -90px;
+    color: #eaeaea;
+    overflow: hidden;
+}
+
+.jumbotron img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #eaeaea;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.portofolio .thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.portofolio .thumbnail.ActionMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.contact {
+    min-height: 800px;
+}
